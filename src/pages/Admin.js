@@ -58,7 +58,7 @@ function Admin() {
   };
 
   return (
-    <div style={{ padding: '20px' }}>
+    <div className="page-content" style={{ padding: '20px' }}>
       <h1>Admin Panel</h1>
 
       <form onSubmit={handleSubmit}>

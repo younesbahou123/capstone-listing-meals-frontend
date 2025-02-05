@@ -12,8 +12,8 @@ function Menu() {
   }, []);
 
   return (
-    <div>
-      <h1>Menu</h1>
+    <div className="page-content">
+      <h1> welcome to the Menu page</h1>
       {meals.map(meal => (
         <div key={meal._id}>
           <img src={`http://localhost:5000${meal.image}`} alt={meal.name} width="200" />

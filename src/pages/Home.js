@@ -1,12 +1,12 @@
 import React from 'react';
 
 function Home() {
-  return (
-    <div style={{ textAlign: 'center', padding: '50px' }}>
-      <h1>Welcome to Meal Listing</h1>
-      <p>Explore delicious meals and add them to your cart.</p>
-    </div>
-  );
+    return (
+        <div className="page-content">
+            <h1>Welcome to the Home Page</h1>
+            <p>This is the home page of our meal listing website.</p>
+        </div>
+    );
 }
 
 export default Home;

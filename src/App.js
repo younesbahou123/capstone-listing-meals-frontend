@@ -4,7 +4,7 @@ import Home from './pages/Home';
 import Menu from './pages/Menu';
 import Admin from './pages/Admin';
 import Navbar from './components/Navbar.js';
-
+import './styles.css'; // import global style
 function App() {
   return (
     <Router>
