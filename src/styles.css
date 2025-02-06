@@ -31,7 +31,7 @@
     max-width: limitpx;
     padding: 20px;
     border: 1px solid #ddd;
-    background-color: rgb(210, 241, 12);
+    background-color: #EDC84B; 
     border-radius: 8px;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
 }
