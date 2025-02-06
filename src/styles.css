@@ -27,6 +27,7 @@
 
 /* Add spacing between sections */
 .page-content {
+    text-align: center;
     margin: 30px auto;
     max-width: limitpx;
     padding: 20px;

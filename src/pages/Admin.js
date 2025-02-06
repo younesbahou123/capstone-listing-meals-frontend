@@ -72,7 +72,7 @@ function Admin() {
       <h2>Existing Meals</h2>
       {meals.map((meal) => (
         <div key={meal._id} style={{ border: '1px solid #ddd', padding: '10px', margin: '10px 0' }}>
-          <img src={`http://localhost:5000${meal.image}`} alt={meal.name} width="100" />
+          <img src={`http://localhost:5000${meal.image}`} alt={meal.name} width="300" />
           <h3>{meal.name}</h3>
           <p>Ingredients: {meal.ingredients.join(', ')}</p>
           <p>Price: ${meal.price}</p>
